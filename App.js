@@ -25,6 +25,7 @@ const App = () => {
     InterRegular: require("./assets/fonts/Inter-Regular.ttf"),
   });
 
+  if(!loaded) return null;
 
   return (
     <NavigationContainer theme={theme}>
