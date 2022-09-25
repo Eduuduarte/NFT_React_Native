@@ -31,13 +31,13 @@ export const DetailsDesc = ({ data }) => {
       <View style={{ marginVertical: SIZES.extraLarge * 1.5 }}>
         <Text style={{
           fontSize: SIZES.font,
-          fontFamily: FONTS.bold,
+          // fontFamily: FONTS.bold,
           color: COLORS.primary
         }}>Description</Text>
         <View style={{ marginTop: SIZES.base }}>
           <Text style={{
             fontSize: SIZES.small,
-            fontFamily: FONTS.regular,
+            // fontFamily: FONTS.regular,
             color: COLORS.secondary,
             lineHeight: SIZES.large
           }}>
@@ -46,7 +46,7 @@ export const DetailsDesc = ({ data }) => {
             <Text
               style={{
                 fontSize: SIZES.small,
-                fontFamily: FONTS.semiBold,
+                // fontFamily: FONTS.semiBold,
                 color: COLORS.primary
               }}
               onPress={() => {

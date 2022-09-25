@@ -34,10 +34,14 @@ const HomeHeader = ({ onSearch }) => {
       </View>
 
       <View style={{ marginVertical: SIZES.font }}>
-        <Text style={{ fontFamily: FONTS.regular, fontSize: SIZES.small, color: COLORS.white }}>
+        <Text style={{ 
+          // fontFamily: FONTS.regular, 
+          fontSize: SIZES.small, color: COLORS.white }}>
           Hello, Victoria👋
         </Text>
-        <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large, color: COLORS.white, marginTop: SIZES.base / 2 }}>
+        <Text style={{ 
+          // fontFamily: FONTS.bold, 
+          fontSize: SIZES.large, color: COLORS.white, marginTop: SIZES.base / 2 }}>
           Let's find a masterpiece
         </Text>
       </View>

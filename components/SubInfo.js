@@ -6,8 +6,12 @@ import { SIZES, FONTS, COLORS, SHADOWS, assets } from '../constants'
 export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
   return (
     <View>
-      <Text style={{ fontFamily: FONTS.semiBold, fontSize: titleSize, color: COLORS.primary }}>{title}</Text>
-      <Text style={{ fontFamily: FONTS.regular, fontSize: subTitleSize, color: COLORS.primary }}>{subTitle}</Text>
+      <Text style={{ 
+        // fontFamily: FONTS.semiBold, 
+        fontSize: titleSize, color: COLORS.primary }}>{title}</Text>
+      <Text style={{ 
+        // fontFamily: FONTS.regular, 
+        fontSize: subTitleSize, color: COLORS.primary }}>{subTitle}</Text>
     </View>
   )
 }
@@ -21,7 +25,7 @@ export const EthPrice = ({ price }) => {
             style={{ width: 20, height: 20, marginRight: 2}}
           />
           <Text style={{
-            fontFamily: FONTS.medium,
+            // fontFamily: FONTS.medium,
             fontSize: SIZES.font,
             color: COLORS.primary,
           }}>{price}</Text>
@@ -74,12 +78,12 @@ export const EndDate = () => {
             }}
         >
           <Text style={{ 
-            fontFamily: FONTS.regular, 
+            // fontFamily: FONTS.regular, 
             fontSize: SIZES.small, 
             color: COLORS.primary 
             }}>Ending in</Text>
           <Text style={{ 
-            fontFamily: FONTS.semiBold, 
+            // fontFamily: FONTS.semiBold, 
             fontSize: SIZES.medium, 
             color: COLORS.primary 
             }}>12h 30m</Text>

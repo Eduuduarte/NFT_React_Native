@@ -40,7 +40,7 @@ export const ReactButton = ({minWidth, fontSize, handlePress, ...props }) => {
             onPress={handlePress}
         >
             <Text style={{
-                fontFamily: FONTS.semiBold,
+                // fontFamily: FONTS.semiBold,
                 fontSize: fontSize,
                 color: COLORS.white,
                 textAlign: "center"
